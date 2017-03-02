@@ -15,3 +15,6 @@ _Solution_: put this url: `http://xss-game.appspot.com/level4/frame?timer=3')%3B
 
 ## [5/6]  Level 5: Breaking protocol
 _Solution_: change the href link with: `javascript:alert('xss');` 
+
+## [6/6]  Level 6: Follow the rabbit
+_Solution_: add `data://text/javascript.alert('xss');` instead `/static/gadget.js`
